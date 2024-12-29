@@ -50,9 +50,9 @@ Enjoy peace of mind with reliable IT support and maintenance.
 
 **Da I.T. Shac** is here to simplify your IT needs. Whether you're a small business, a large corporation, or an individual, we’ve got you covered!  
 
-👉 **Call us now** at [Your Contact Number]  
-👉 **Email us** at [Your Email Address]  
-👉 **Visit our website**: [www.daitshac.com](http://www.daitshac.com)  
+👉 **Call us now**   
+👉 **Email us**  
+👉 **Visit our website**: [www.daitshac.github.io](http://www.daitshac.github.io)  
 
 ---
 
