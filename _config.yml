@@ -22,8 +22,8 @@ title: Da I.T. Shac
 email: frank@daitshac.com
 description: >- # this means to ignore newlines until "baseurl:"
   Simplifying IT, Amplifying Success
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://daitshac.github.io/daitshac/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/daitshac" # the subpath of your site, e.g. /blog
+url: "https://daitshac.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: daitshac
 github_username:  daitshac
 
