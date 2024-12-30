@@ -52,7 +52,7 @@ Enjoy peace of mind with reliable IT support and maintenance.
 
 👉 **Call us now**   
 👉 **Email us**  
-👉 **Visit our website**: [www.daitshac.github.io](http://www.daitshac.github.io)  
+👉 **Visit our website**: [https://daitshac.github.io/daitshac/](https://daitshac.github.io/daitshac/)  
 
 ---
 
