@@ -1,5 +1,5 @@
 # Welcome to Da I.T. Shac  
-## Your Trusted IT Solutions Provider in Papua New Guinea  
+## Your Guide to Effortless IT Solutions  
 
 ---
 
@@ -56,4 +56,4 @@ Enjoy peace of mind with reliable IT support and maintenance.
 
 ---
 
-### **Da I.T. Shac – Your IT Partner for Success!**
+### **Da I.T. Shac – Your Simplified IT Journey Begins Here!**
