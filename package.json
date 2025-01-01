@@ -1,0 +1,26 @@
+{
+  "name": "daitshac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./_site/assets/tailwind.css -o ./_site/assets/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daitshac/daitshac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daitshac/daitshac/issues"
+  },
+  "homepage": "https://github.com/daitshac/daitshac#readme",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

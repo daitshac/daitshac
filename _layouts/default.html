@@ -4,23 +4,25 @@
 <head>
     <title>{{ page.title }} | Da I.T. Shac</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/_site/assets/main.css">
 </head>
 
 <body>
-    <header>
-        <h1><a href="/">{{ site.title }}</a></h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about.html">About Us</a>
-            <a href="/services.html">Services</a>
-            <a href="/contact.html">Contact</a>
+    <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold"><a href="/">{{ site.title }}</a></h1>
+        <nav class="flex gap-4">
+            <a href="/daitshac/" class="hover:text-gray-300">Home</a>
+            <a href="/daitshac/about.html" class="hover:text-gray-300">About Us</a>
+            <a href="/daitshac/services.html" class="hover:text-gray-300">Services</a>
+            <a href="/daitshac/contact.html" class="hover:text-gray-300">Contact</a>
         </nav>
+    </header>
+
     </header>
     <main>
         {{ content }}
     </main>
-    <footer>
+    <footer class="bg-gray-800 text-white text-center p-4">
         <p>© {{ site.title }} - Simplifying IT, Amplifying Success</p>
     </footer>
 </body>
