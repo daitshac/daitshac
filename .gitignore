@@ -1,6 +1,24 @@
-_site
-.sass-cache
-.jekyll-cache
+# Node.js-related files (for Tailwind CSS)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Tailwind CSS build output
+public/
+dist/
+build/
+
+# Jekyll-related files
+_site/
+.sass-cache/
 .jekyll-metadata
-vendor
-node_modules
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.swp
+*.swo
+.idea/
+.vscode/
