@@ -14,75 +14,82 @@
         <p>Information Technology Made Easy</p>
     </header>
 
-    <nav class="navbar">
-        <div class="logo">Da I.T. Shac</div>
-        <button class="menu-toggle" id="menuToggle">&#9776;</button>
-        <div class="menu" id="menu">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#team">Team</a>
-            <a href="#clients">Clients</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <nav>
+        <button onclick="showSection('about')">About</button>
+        <button onclick="showSection('services')">Services</button>
+        <button onclick="showSection('team')">Team</button>
+        <button onclick="showSection('clients')">Clients</button>
+        <button onclick="showSection('contact')">Contact</button>
     </nav>
 
-    <main class="scroll-container">
-        <section id="about" class="active">
-            <h2>Mission & Vision</h2>
-            <p><strong>Vision:</strong> Information technology made easy.</p>
-            <p><strong>Mission:</strong> Empowering SMEs and organizations with affordable IT solutions...</p>
-            <div class="card">
-                <h3>About Da I.T. Shac</h3>
-                <p>Founded in Port Moresby in 2018... solving real tech problems for businesses.</p>
-            </div>
-        </section>
+    <section id="about" class="active visible">
+        <h2>Mission & Vision</h2>
+        <p><strong>Vision:</strong> Information technology made easy.</p>
+        <p><strong>Mission:</strong> Empowering SMEs and organizations with affordable IT solutions through expert
+            consulting, training, and services that enhance productivity and drive growth.</p>
+        <div class="card">
+            <h3>About Da I.T. Shac</h3>
+            <p>Founded in Port Moresby in 2018, Da I.T. Shac is a startup committed to making IT accessible, secure, and
+                simple. We believe in being good to others, having fun, and making money while solving real tech
+                problems for businesses.</p>
+        </div>
+        <div class="card">
+            <h3>Industry Insight</h3>
+            <p>Information Technology in PNG is growing rapidly, yet the demand for skilled workers is unmet. Da I.T.
+                Shac aims to bridge this gap by offering professional and affordable IT services tailored for local
+                needs.</p>
+        </div>
+    </section>
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <div class="card">Consulting: Systems Admin, Networking, Web Dev, etc.</div>
-            <div class="card">Training: Office, Creative Tools, MATLAB, etc.</div>
-            <div class="card">Networking, Hosting, Digital Marketing</div>
-        </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="card"><strong>Consulting:</strong> Systems Administration, Networking, Web Hosting & Development,
+            Digital Marketing, Equipment Hire</div>
+        <div class="card"><strong>Training:</strong> Basic computing, Microsoft Office, Project tools, Modelling &
+            Creative software, MATLAB, GPS usage</div>
+        <div class="card"><strong>Systems Administration:</strong> Workstation & Domain deployment, Windows Server
+            setup, Troubleshooting</div>
+        <div class="card"><strong>Networking:</strong> DNS, DHCP, VoIP, File/Directory Sharing, Hardware Sharing</div>
+        <div class="card"><strong>Web Hosting & Development:</strong> Hosting via Hostinger or locally, custom
+            HTML/JS/CSS, MERN stack web apps</div>
+        <div class="card"><strong>Digital Marketing:</strong> Online growth, lead generation, revenue boosting
+            strategies</div>
+        <div class="card"><strong>Equipment Hire:</strong> Drones, GPS units, laptops, and surveying equipment</div>
+        <div class="card"><strong>Aerial Surveys:</strong> Real-time mapping, 2D/3D reconstructions, LiDAR,
+            multispectral imaging</div>
+        <div class="card"><strong>Database Development:</strong> From design to deployment for custom data systems</div>
+    </section>
 
-        <section id="team">
-            <h2>Meet the Team</h2>
-            <div class="card"><strong>Frank Manue Jr:</strong> Systems Admin, Web Dev</div>
-            <div class="card"><strong>Nathan Manup:</strong> Product Developer</div>
-        </section>
+    <section id="team">
+        <h2>Meet the Team</h2>
+        <div class="card"><strong>Frank Manue Jr (Principal):</strong> Systems Admin, Telecom & Web Dev Expert</div>
+        <div class="card"><strong>Nathan Manup:</strong> Product Developer, Stats & Data Enthusiast</div>
+        <div class="card"><strong>Raymond Senau:</strong> Sales & Marketing with Multimedia Passion</div>
+        <div class="card"><strong>Feme Manue:</strong> Learner & Doer in IT and Medicine</div>
+        <div class="card"><strong>Alex Michael:</strong> Broadcast Engineer with Business Insight</div>
+        <div class="card"><strong>Charmaine Mileng:</strong> Computer Scientist supporting ICT development</div>
+    </section>
 
-        <section id="clients">
-            <h2>Our Clients</h2>
-            <div class="card">Likipi Estate – <a href="https://likipi.com">Visit</a></div>
-            <div class="card">Roan Paul – <a href="https://cybershac.github.io/RoanPaulPhotography/">Portfolio</a></div>
-        </section>
+    <section id="clients">
+        <h2>Our Clients</h2>
+        <div class="card"><strong>Likipi Estate:</strong> Web hosting & maintenance - <a href="https://likipi.com"
+                target="_blank">likipi.com</a></div>
+        <div class="card"><strong>Roan Paul:</strong> Photography portfolio - <a
+                href="https://cybershac.github.io/RoanPaulPhotography/" target="_blank">View site</a></div>
+        <div class="card"><strong>Rainbow Dental Clinic:</strong> Migrating to an electronic patient record system</div>
+        <div class="card"><strong>Water PNG:</strong> LiDAR data, floater designs, and survey support</div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form action="https://formsubmit.co/hi@daitshac.com" method="POST" class="contact-form" id="contactForm">
-                <input type="hidden" name="_subject" value="New submission from Da I.T. Shac site!">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://yourdomain.com/#contact">
-
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required />
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required />
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
-
-                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY_HERE"></div>
-
-                <button type="submit">Send Message</button>
-                <p id="formSuccess" class="form-success"></p>
-            </form>
-            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        </section>
-    </main>
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p><strong>Email:</strong> <a href="mailto:hi@daitshac.com">hi@daitshac.com</a></p>
+        <p><strong>Phone:</strong> +675 7836 4602</p>
+        <p><strong>Website:</strong> <a href="https://daitshac.com" target="_blank">daitshac.com</a></p>
+        <p>Let us help you achieve your ideal IT setup today.</p>
+    </section>
 
     <footer>
-        &copy; 2025 Da I.T. Shac | Smart People & Local Passion
+        &copy; 2025 Da I.T. Shac | Powered by Smart People & Local Passion
     </footer>
 
     <script src="script.js"></script>
