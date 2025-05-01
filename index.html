@@ -2,103 +2,97 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DA I.T. SHAC</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2rem 0;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section h2 {
-            color: #333;
-        }
-
-        .section p {
-            color: #666;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Da I.T. Shac - IT Made Easy</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <h1>DA I.T. SHAC</h1>
+        <h1>Da I.T. Shac</h1>
+        <p>Information Technology Made Easy</p>
     </header>
-    <div class="container">
-        <div class="section">
-            <h2>Services Offered</h2>
-            <p>IT Consulting: Tailored solutions to maximize your technology investments.</p>
-            <p>Software Development: Custom software built to meet your unique needs.</p>
-            <p>Web Development: Mobile-friendly, SEO-optimized websites.</p>
-            <p>Networking Solutions: Secure, high-performance setups.</p>
-            <p>IT Support Services: Comprehensive maintenance and issue resolution.</p>
+
+    <nav>
+        <button onclick="showSection('about')">About</button>
+        <button onclick="showSection('services')">Services</button>
+        <button onclick="showSection('team')">Team</button>
+        <button onclick="showSection('clients')">Clients</button>
+        <button onclick="showSection('contact')">Contact</button>
+    </nav>
+
+    <section id="about" class="active visible">
+        <h2>Mission & Vision</h2>
+        <p><strong>Vision:</strong> Information technology made easy.</p>
+        <p><strong>Mission:</strong> Empowering SMEs and organizations with affordable IT solutions through expert
+            consulting, training, and services that enhance productivity and drive growth.</p>
+        <div class="card">
+            <h3>About Da I.T. Shac</h3>
+            <p>Founded in Port Moresby in 2018, Da I.T. Shac is a startup committed to making IT accessible, secure, and
+                simple. We believe in being good to others, having fun, and making money while solving real tech
+                problems for businesses.</p>
         </div>
-        <div class="section">
-            <h2>Contact Information</h2>
-            <p>Email: hi@daitshac.com</p>
+        <div class="card">
+            <h3>Industry Insight</h3>
+            <p>Information Technology in PNG is growing rapidly, yet the demand for skilled workers is unmet. Da I.T.
+                Shac aims to bridge this gap by offering professional and affordable IT services tailored for local
+                needs.</p>
         </div>
-        <div class="section">
-            <h2>About Us</h2>
-            <p>Vision: Information technology made easy</p>
-            <p>Mission: To empower SMEs and organisations with comprehensive and affordable information technology
-                solutions. Through our expert consulting, training, and services, we strive to deliver innovative and
-                reliable systems that enhance productivity, improve communication, and drive business growth. With a
-                focus on exceptional customer service and a commitment to staying ahead of the curve in the
-                rapidly-evolving technology landscape, we aim to be the go-to IT partner for businesses of all sizes.
-            </p>
-            <p>The Business: Since its founding in Port Moresby in 2018, DA I.T. SHAC has been looking to dab its feet
-                in the Information Technology environment. We're a startup that believes in being good to others, having
-                fun and making money. We firmly believe that Information Technology should be accessible and simple for
-                everyone to freely use securely.</p>
-        </div>
-        <div class="section">
-            <h2>Business Hours</h2>
-            <p>Side hustle, we are open after hours.</p>
-        </div>
-        <div class="section">
-            <h2>Pricing Information</h2>
-            <p>Consulting starts off at K150 a day, minimum of 2 days engagement with markup for sourcing materials.</p>
-        </div>
-        <div class="section">
-            <h2>Social Media Links</h2>
-            <p>Facebook: <a
-                    href="https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fdaitshac&data=05%7C02%7C%7Ce185fbf9d1a74b6ec02c08dd8856bc50%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638816628314001036%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=qM%2BTjoaL7HQQS7QrEZOXH%2BhoSVbZzmMfDArF79kx0L8%3D&reserved=0">https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fdaitshac&data=05%7C02%7C%7Ce185fbf9d1a74b6ec02c08dd8856bc50%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638816628314027292%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=KCtWqJdWymxl2TuzyvSuo6VpMPhbqv8IQ0darAh9BX8%3D&reserved=0</a>
-            </p>
-        </div>
-    </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="card"><strong>Consulting:</strong> Systems Administration, Networking, Web Hosting & Development,
+            Digital Marketing, Equipment Hire</div>
+        <div class="card"><strong>Training:</strong> Basic computing, Microsoft Office, Project tools, Modelling &
+            Creative software, MATLAB, GPS usage</div>
+        <div class="card"><strong>Systems Administration:</strong> Workstation & Domain deployment, Windows Server
+            setup, Troubleshooting</div>
+        <div class="card"><strong>Networking:</strong> DNS, DHCP, VoIP, File/Directory Sharing, Hardware Sharing</div>
+        <div class="card"><strong>Web Hosting & Development:</strong> Hosting via Hostinger or locally, custom
+            HTML/JS/CSS, MERN stack web apps</div>
+        <div class="card"><strong>Digital Marketing:</strong> Online growth, lead generation, revenue boosting
+            strategies</div>
+        <div class="card"><strong>Equipment Hire:</strong> Drones, GPS units, laptops, and surveying equipment</div>
+        <div class="card"><strong>Aerial Surveys:</strong> Real-time mapping, 2D/3D reconstructions, LiDAR,
+            multispectral imaging</div>
+        <div class="card"><strong>Database Development:</strong> From design to deployment for custom data systems</div>
+    </section>
+
+    <section id="team">
+        <h2>Meet the Team</h2>
+        <div class="card"><strong>Frank Manue Jr (Principal):</strong> Systems Admin, Telecom & Web Dev Expert</div>
+        <div class="card"><strong>Nathan Manup:</strong> Product Developer, Stats & Data Enthusiast</div>
+        <div class="card"><strong>Raymond Senau:</strong> Sales & Marketing with Multimedia Passion</div>
+        <div class="card"><strong>Feme Manue:</strong> Learner & Doer in IT and Medicine</div>
+        <div class="card"><strong>Alex Michael:</strong> Broadcast Engineer with Business Insight</div>
+        <div class="card"><strong>Charmaine Mileng:</strong> Computer Scientist supporting ICT development</div>
+    </section>
+
+    <section id="clients">
+        <h2>Our Clients</h2>
+        <div class="card"><strong>Likipi Estate:</strong> Web hosting & maintenance - <a href="https://likipi.com"
+                target="_blank">likipi.com</a></div>
+        <div class="card"><strong>Roan Paul:</strong> Photography portfolio - <a
+                href="https://cybershac.github.io/RoanPaulPhotography/" target="_blank">View site</a></div>
+        <div class="card"><strong>Rainbow Dental Clinic:</strong> Migrating to an electronic patient record system</div>
+        <div class="card"><strong>Water PNG:</strong> LiDAR data, floater designs, and survey support</div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p><strong>Email:</strong> <a href="mailto:hi@daitshac.com">hi@daitshac.com</a></p>
+        <p><strong>Phone:</strong> +675 7836 4602</p>
+        <p><strong>Website:</strong> <a href="https://daitshac.com" target="_blank">daitshac.com</a></p>
+        <p>Let us help you achieve your ideal IT setup today.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2023 DA I.T. SHAC. All rights reserved.</p>
+        &copy; 2025 Da I.T. Shac | Powered by Smart People & Local Passion
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
